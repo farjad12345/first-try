@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* padding: 5px; */
+    margin: 10px;
+    background-color: pink;
+}
+mr-top{
+margin-top: 20px;
+}
+.row {
+    width: 100%;
+    float: left;
+}
+
+.header {
+    background-color: tomato;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.nav li {
+    width: 20%;
+    float: left;
+    list-style: none;
+    background-color: coral;
+    line-height: 50px;
+    height: 50px;
+    border-right: 3px solid gray;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.no-border {
+    border-right-style: none !important;
+}
+
+.p {
+    background-color: skyblue;
+    /* height: 50px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gallery-box {
+    /* background-color: pink; */
+    /* height: 500px; */
+    margin-top: 10px;
+}
+
+.galerry-box-child {
+    width: 32%;
+    background-color: tomato;
+}
+
+.galerry-box-child-top {
+    width: 100%;
+    height: 150px;
+    border: 5px solid green;
+}
+
+.galerry-box-child-bottom {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    border-bottom: 5px solid green;
+color:green;
+}
+.mr-both{
+    margin:0px 2%;
+}
+.footer{
+    background-color: coral;
+    height: 100px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}

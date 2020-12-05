@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+  width: 100%;
+  float: left;  
+}
+/* margin top */
+.mt{
+  margin-top: 20px;
+}
+/* header */
+.header{
+    background-color: orange;
+    height: 70px;
+    font-size: 30px;
+    padding-left: 20px;
+    line-height: 70px;
+}
+/* main */
+/* navigation section */
+.nav{
+  background-color: salmon;
+  height: 50px;
+}
+
+.nav li{
+  float:left;
+  width: 20%;
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+  border-right: 3px solid black;
+}
+.no-border{
+  border-right: none !important ;
+}
+.nav a{
+  text-decoration: none;
+}
+/* container  */
+.container{
+  background-color: gray ;
+  width: 80%;
+  padding: 0 10px;
+  margin: 10px 10%;
+}
+/* main section */
+.main-section{
+  text-align: center;
+  /* height: 200px; */
+ ; 
+}
+.main-section h1{
+  padding:  15px;
+  background-color: skyblue;
+  /* float: left; */
+}
+.main-section p{
+  /* float: left; */
+  background-color: dodgerblue;
+  padding: 30px 30px;
+  /* clear: both; */
+}
+/* gallery bax */
+/* .gallery-box{ */
+/* background-color: gray; */
+/* height: auto; */
+/* clear: both; */
+/* float: left; */
+/* } */
+.gallery-box-child{
+width: 32%;
+margin-left: 1%;
+/* background-color:orange; */
+height: 300px;
+float: left;
+
+}
+.gallery-box-child-top{
+background-color:orange;
+height: 100px;
+text-align:center ;
+line-height: 100px;
+font-size: 30px;
+border-top: 3px solid dodgerblue;
+}
+.gallery-box-child-botoom{
+  height: 200px;
+  background-color: coral;
+  border: 5px solid dodgerblue;
+}
+.footer{
+background-color: black;
+height: 100px;
+color: white;
+text-align: center;
+line-height: 100px;
+font-size: 30px;
+}
